@@ -24,6 +24,8 @@ introduction_with_language(Dan, Python)
 
 introduction_with_language_optional(Edwin)
 
+introduction_with_language_optional(Edwin)
+
 
 
 require "spec_helper"
