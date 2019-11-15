@@ -5,7 +5,12 @@
 def introduction(name)
   puts "Hello, my name is #{name}"
 end
-def introduction_with_language(name, language ='Ruby')
+
+def introduction_with_languagel(name, language)
+  puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
+end
+
+def introduction_with_language_optional(name, language ='Ruby')
   puts "Hi, my name is #{name} and I am learning to program in #{language}.\n"
 end
 
@@ -16,6 +21,8 @@ introduction(Dan)
 introduction_with_language(Josh, Ember.js)
 
 introduction_with_language(Dan, Python)
+
+introduction_with_language_optional(Edwin)
 
 
 
